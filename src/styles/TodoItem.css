@@ -1,0 +1,83 @@
+.todo-item {
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+    max-width: 500px;
+    height: auto;
+    word-wrap: break-word;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    list-style: none;
+    background-color: var(--primary-color);
+    border-radius: 8px;
+    color: #fff;
+    transform: scale(1);
+    transition: .3s transform;
+    cursor: pointer;
+}
+
+
+.todo-item:hover{
+    transform: scale(1.1);
+}
+
+.todo-item__text {
+    display: block;
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin: 24px 0 24px 24px;
+    width: calc(100% - 110px);
+    line-height: 2.4rem;
+}
+
+
+.icon {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 48px;
+    width: 18px;
+}
+
+.todo-item__delete{ 
+    font-size: 2rem;
+    position: absolute;
+    bottom: 20px;
+    left: calc(90%);
+}
+
+.todo-item__delete:hover{
+    color: red;
+}
+
+.todo-item__check {
+    font-size: 1.6rem;
+    position: absolute;
+    right: calc(90%);
+}
+
+.todo-item--cheked {
+    color: green;
+}
+
+
+.todo-item__text--cheked{
+    text-decoration: line-through;
+    text-decoration-color:#000;
+}
+
+
+.icon-check {
+    color: transparent;
+    border: 1px solid #000;
+    border-radius: 50%;
+    /* width: 120px; */
+    /* height: 60px; */
+}
+
+.icon-cheked {
+  color: #fff;
+}

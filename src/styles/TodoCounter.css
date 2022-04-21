@@ -1,0 +1,26 @@
+.container-text {
+    width: 80%;
+    max-width: 340px;
+    margin: 0 auto;
+    max-width: 330px;
+    justify-self: center;
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.container-text__title {
+    /* text-align: center; */
+    /* padding-right: 15px; */
+    font-size: 7rem;
+    color: var(--primary-color);
+}
+
+.container-text__task-completed {
+    font-size: 1.3rem;
+    color: rgb(102, 100, 100);
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+

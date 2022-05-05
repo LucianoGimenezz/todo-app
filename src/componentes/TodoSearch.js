@@ -1,9 +1,7 @@
 import React from 'react';
 import '../styles/TodoSearch.css';
-import { TodoContext } from '../TodoContext';
 
-function TodoSearch(){
-    const { searchValue, setSearchValue } = React.useContext(TodoContext);
+function TodoSearch({ searchValue, setSearchValue } ){
     
 
     const filterTask = (event) => {

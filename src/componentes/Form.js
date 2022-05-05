@@ -27,12 +27,11 @@ function Form() {
 
     return (
         <form className="form" onSubmit={onSubmit}>
-            <label className="form__title">Create TODO</label>
+            <label className="form__title">Create a new TODO</label>
             <textarea className="form__text"
                 value={ newTodo }
                 onChange={onChange}
-                placeholder = " Create a new TODO.."
-            />
+                placeholder="Create a new TODO"></textarea>
             <div className="form__btn-container">
                 <button
                     className="btn-container__btn btn-cancel"

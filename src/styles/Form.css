@@ -1,12 +1,12 @@
 .form {
     width: 90%;
-    max-width: 396px;
+    max-width: 296px;
     height: 30vh; 
     margin-bottom: 250px;
     display: flex;
     flex-direction: column;
     border-radius: 8px;
-    background-color: #eee;
+    background-color: rgb(196, 196, 196);
 }
 
 .form__title {
@@ -19,11 +19,12 @@
 }
 
 textarea{
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
-    height: 500px;
+    height: 120px;
+    border-radius: 10px;
     justify-content: center;
-    background-color: rgb(185, 185, 185);
+    background-color: rgb(255, 255, 255);
     border: none;
     font-family: 'Rajdhani', sans-serif;
     text-align: center;
@@ -31,7 +32,7 @@ textarea{
 
 
 textarea::placeholder{
-    color: #fff;
+    color: rgb(143, 143, 143);
     font-size: 1.6rem;
     font-family: 'Rajdhani', sans-serif;
 }
@@ -42,6 +43,7 @@ textarea:focus {
   
 .form__btn-container {
     width: 100%;
+    margin-top: 15px;
     padding-top: 10px;
     padding-bottom:10px;
     justify-content: center;
@@ -49,8 +51,8 @@ textarea:focus {
 }
 
 .btn-container__btn  {
-    width: 60px;
-    height: 30px;
+    width: 90px;
+    height: 60px;
     border-radius: 10px;
     margin-right: 10px;
     padding-left: 5px;
@@ -68,6 +70,7 @@ textarea:focus {
 
 .btn-cancel {
     border: none;
-    background-color: rgb(168, 158, 158);
+    background-color: rgb(223, 221, 221);
     cursor: pointer;
+    font-weight:bold;
 }

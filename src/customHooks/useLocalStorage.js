@@ -27,7 +27,6 @@ function useLocalStorage(itemName, initialValue) {
           setError(error);
         }
       }, 1000)
-      console.log('Use efect')
     },[])
 
   
